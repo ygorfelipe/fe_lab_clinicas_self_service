@@ -12,7 +12,8 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     WidgetsBinding.instance.addPostFrameCallback((_) {
       //* jogando a tela ser buildada para enviar para a tela de login
-      Navigator.of(context).pushReplacementNamed('/auth/login');
+      // Navigator.of(context).pushReplacementNamed('/auth/login');
+      Navigator.of(context).pushReplacementNamed('/home');
     });
     super.initState();
   }
